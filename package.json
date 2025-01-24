@@ -1,0 +1,19 @@
+{
+  "name": "chat-with-facial-recognition",
+  "version": "1.0.0",
+  "description": "Sistema de Chat em Tempo Real com Reconhecimento Facial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizClaudioGarcia/chat-with-facial-recognition.git"
+  },
+  "author": "Luiz Claudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuizClaudioGarcia/chat-with-facial-recognition/issues"
+  },
+  "homepage": "https://github.com/LuizClaudioGarcia/chat-with-facial-recognition#readme"
+}
