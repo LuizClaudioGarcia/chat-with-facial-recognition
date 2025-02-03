@@ -4,6 +4,6 @@ import { Router } from "express";
 
 const routes = new Router();
 
-routes.post("/firstRoute", Controller.firstRoute);
+routes.post("/firstRoute2", Controller.firstRoute);
 
 module.exports = routes;
