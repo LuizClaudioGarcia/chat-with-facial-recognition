@@ -1,14 +1,19 @@
 
-FROM node:19
+FROM node:alpine3.19
+
+RUN addgroup -g 1001 appgroup && adduser -G appgroup -u 1001 appuser -s /bin/sh -D
 
 WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install; npm install -g nodemon
+RUN npm install -g nodemon
+RUN npm install
 
 # Copia todo o código do projeto para o diretório de trabalho
-COPY . .
+COPY --chown=appuser:appgroup . /app
+
+USER appuser 
 
 EXPOSE 8080
 

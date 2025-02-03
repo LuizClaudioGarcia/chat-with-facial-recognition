@@ -4,7 +4,7 @@ import { Router } from "express";
 const routes = new Router();
 
 // Define a rota
-routes.post("/firstRoute", Controller.firstRoute);
+routes.post("/firstRoute2", Controller.firstRoute);
 
 // Exporta o Router
 export default routes;
