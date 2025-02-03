@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Sistema de Chat em Tempo Real com Reconhecimento Facial",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && babel src -s -D -d dist",
-    "dev": "nodemon -w src --exec \"babel-node src/server.js\"",
-    "dev2": "node --watch src/server.js"
+    "dev": "node --watch src/server.js"
   },
   "repository": {
     "type": "git",

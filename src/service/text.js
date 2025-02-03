@@ -4,4 +4,4 @@ class Text {
   }
 }
 
-module.exports = new Text();
+export default new Text();

@@ -1,2 +1,2 @@
-import { initServer } from "./index";
+import { initServer } from "./index.js";
 initServer();

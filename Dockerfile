@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["sh", "-c", "if [ \"$NODE_ENV\" = 'development' ]; then npm run dev2; else npm start; fi"]
+CMD ["sh", "-c", "if [ \"$NODE_ENV\" = 'development' ]; then npm run dev; else npm start; fi"]
